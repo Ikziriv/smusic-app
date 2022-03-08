@@ -1,13 +1,16 @@
 <script>
     
 </script>
-<footer class="w-full h-16 bg-neutral-900 fixed inset-x-0 bottom-0">
+<footer class="w-full h-auto md:h-16 bg-neutral-900 fixed inset-x-0 bottom-0 z-30">
     <div class="grid grid-cols-3 gap-3">
         <div class="col-span-full md:col-span-1">
             <div class="flex flex-row">
-                <div class="w-24 h-16 bg-true-neutral-900 shadow-lg">
+                <div class="flex justify-center items-center w-24 h-16 bg-transparent">
+                    <div class="w-12 h-12 bg-neutral-800 rounded-lg shadow-lg">
+
+                    </div>
                 </div>
-                <div class="flex justify-center items-center w-auto h-16 bg-transparent">
+                <div class="flex justify-center items-center w-full md:w-auto h-16 bg-transparent">
                     <span class="px-4">
                         <svg class="bi bi-shuffle fill-current text-white w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"/>
@@ -38,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-span-full md:col-span-1">
+        <div class="col-span-full md:col-span-1 hidden md:block">
             <div class="flex flex-row">
                 <div class="flex justify-center items-center w-full h-16 bg-transparent px-4">
                     <span class="px-4">
@@ -65,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-span-full md:col-span-1">
+        <div class="col-span-full md:col-span-1 hidden md:block">
             <div class="flex justify-center items-center w-auto h-16 bg-transparent">
                 <span class="px-4">
                     <svg class="bi bi-volume-up-fill fill-current text-white w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">

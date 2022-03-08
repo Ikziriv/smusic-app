@@ -1,17 +1,19 @@
-<script>
+<script lang="ts">
     import { 
       Header, 
       Sidebar, 
       Footer 
-    } from '../libs/components/index'
-    import "../styles/app.css";
+    } from '$components'
+    import "$styles/app.css";
 </script>
     
 <div class="w-full h-screen relative bg-transparent">
     <Header />
-    <main class="flex w-full h-auto">
+    <main class="flex flex-row w-full h-auto">
         <Sidebar classes="flex-none" />
-        <slot />
+        <div class="grow w-full h-auto z-0">
+            <slot />
+        </div>
     </main>
     <Footer />
 </div>
