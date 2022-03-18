@@ -3,7 +3,7 @@
     import { sideBarOpen } from '$stores'
     export const classes: string = ""
 </script>
-<aside class="{$sideBarOpen ? `w-24 border-slate-800` : 'w-24'} h-screen flex flex-col justify-between py-32 md:py-20 bg-neutral-900 z-20">
+<aside class="{$sideBarOpen ? `w-24 border-slate-800` : 'w-24'} h-auto md:h-screen flex flex-col justify-between py-32 md:py-20 bg-neutral-900 z-20">
     <div class="flex flex-col justify-center {classes}">
         <div class="flex justify-center items-center w-auto h-auto mb-4 bg-neutral-800">
             <span class="py-2 px-2">
@@ -40,7 +40,7 @@
 </aside>
 
 {#if $sideBarOpen}
-<aside transition:fly="{{ x: -200 }}" class="w-72 md:w-80 h-screen flex flex-col justify-between py-32 md:py-20 px-0 md:px-0 pl-20 md:pl-24 bg-neutral-800 z-10 fixed shadow-lg">
+<aside transition:fly="{{ x: -200 }}" class="w-72 md:w-80 h-screen flex flex-col justify-between py-32 md:py-20 px-0 md:px-0 pl-20 md:pl-24 bg-neutral-800 z-10 fixed shadow-xl md:shadow-lg">
     <div class="flex flex-col justify-end">
         <div class="flex flex-row justify-between items-end w-auto h-auto mb-4 bg-slate-800 md:bg-transparent">
             <div class="py-2 px-4 border-l-4">

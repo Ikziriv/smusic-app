@@ -1,4 +1,4 @@
-<div class="flex none w-full h-screen bg-neutral-800 md:py-16 overflow-y-auto scrollbar scrollbar-thin scrollbar-thumb-neutral-900 scrollbar-track-neutral-700">
+<div class="flex none w-full h-auto md:h-screen bg-neutral-800 py-32 md:py-16 overflow-y-auto scrollbar scrollbar-thin scrollbar-thumb-neutral-900 scrollbar-track-neutral-700">
   <div class="flex flex-col w-full h-auto">
     <div class="flex flex-col w-full h-auto bg-neutral-700">
       <div class="flex flex-row justify-between px-4 border-b border-neutral-900">
