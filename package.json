@@ -36,6 +36,8 @@
   },
   "type": "module",
   "dependencies": {
+    "node-sass": "^7.0.1",
+    "sass": "^1.50.0",
     "spotify-web-api-js": "^1.5.2"
   }
 }
