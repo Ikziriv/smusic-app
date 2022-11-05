@@ -3,7 +3,7 @@
       Header, 
       Sidebar, 
       Footer 
-    } from '$components'
+    } from '$components/index'
     import "$styles/app.css";
 </script>
     

@@ -28,11 +28,17 @@
 		"allowJs": true,
 		"checkJs": true,
 		"paths": {
-			"~/*": ["src/*"],
-			"$libs": ["src/libs"],
-			"$libs/*": ["src/libs/*"],
+			"@": ["src/*"],
 			"$styles": ["src/styles"],
-			"$styles/*": ["src/styles/*"]
+			"$styles/*": ["src/styles/*"],
+			"$stores": ["src/stores"],
+			"$stores/*": ["src/stores/*"],
+			"$utils": ["src/utils"],
+			"$utils/*": ["src/utils/*"],
+			"$components": ["src/components"],
+			"$components/*": ["src/components/*"],
+			"$cshared": ["src/cshared"],
+			"$cshared/*": ["src/cshared/*"]
 		}
 	},
 	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
